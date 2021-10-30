@@ -1,0 +1,33 @@
+Naive Bayes method(multinomialText) Accuracy rate: 97.8881 %
+		   Failure rate: 2.1119%
+Confusion Matrix:
+  a    b   <-- classified as
+ 1624   22 |    a = ham
+   18  230 |    b = spam
+
+After String vector operation
+-----
+Naive Bayes method(Multinomial) accuracy rate: 98.4688 %
+				Failure rate: 1.5312 %
+Confusion matrix:
+  a    b   <-- classified as
+ 1636   10 |    a = ham
+   19  229 |    b = spam
+
+-----
+IBK method Accuracy rate:  94.5618 %
+	   Failure rate: 5.4382 %
+Confusion matrix:
+   a    b   <-- classified as
+ 1643    3 |    a = ham
+  100  148 |    b = spam
+-----
+J48 method Accuracy rate: 95.7761 %
+	   Failure rate: 4.2239 %
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1629   17 |    a = ham
+   63  185 |    b = spam
+
+
